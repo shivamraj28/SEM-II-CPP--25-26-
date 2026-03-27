@@ -16,7 +16,7 @@ public:
 };
 
 int main() {
-    Base* ptr;     // base class pointer
+    Base* ptr; 
     Derived obj;
 
     ptr = &obj;    // pointing to derived object
