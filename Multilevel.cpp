@@ -28,8 +28,6 @@ public:
         cin >> deptName;
     }
 };
-
-// Multilevel continues (Department -> PF)
 class PF : public Department {
 private:
     float basicSalary, pfAmount;
