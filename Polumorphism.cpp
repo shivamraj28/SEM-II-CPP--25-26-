@@ -12,7 +12,6 @@ public:
         return a + b;
     }
 };
-
 // Runtime Polymorphism (Function Overriding)
 class Animal {
 public:
@@ -29,7 +28,6 @@ public:
 };
 
 int main() {
-    // Compile-time polymorphism
     Math m;
     cout << "Sum (int): " << m.add(5, 3) << endl;
     cout << "Sum (float): " << m.add((float)2.5, (float)3.5) << endl;
