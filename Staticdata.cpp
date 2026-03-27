@@ -3,7 +3,7 @@ using namespace std;
 
 class Demo {
 private:
-    static int count;   // static data member
+    static int count;
 
 public:
     Demo() {
