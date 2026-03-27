@@ -11,8 +11,6 @@ public:
         real = r;
         imag = i;
     }
-
-    // Overload + operator
     Complex operator+(Complex c) {
         return Complex(real + c.real, imag + c.imag);
     }
