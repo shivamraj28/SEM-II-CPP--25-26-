@@ -1,7 +1,5 @@
 #include <iostream>
 using namespace std;
-
-// Template function
 template <class T>
 void swapValues(T &a, T &b) {
     T temp;
