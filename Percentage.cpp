@@ -21,11 +21,9 @@ public:
             total += marks[i];
         }
     }
-
     void calculate() {
         percentage = total / subjects;
     }
-
     void display() {
         cout << "\nName: " << name;
         cout << "\nTotal Marks: " << total;
@@ -35,7 +33,6 @@ public:
 
 int main() {
     int n;
-
     cout << "Enter number of students: ";
     cin >> n;
 
