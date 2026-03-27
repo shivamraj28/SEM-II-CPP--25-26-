@@ -10,7 +10,7 @@ int main() {
     cout << "Enter Table Number: ";
     cin >> tableNo;
 
-    cin.ignore(); // to clear buffer
+    cin.ignore();
 
     cout << "Enter Customer Name: ";
     getline(cin, customerName);
