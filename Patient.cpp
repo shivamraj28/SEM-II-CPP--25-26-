@@ -16,10 +16,7 @@ public:
         billAmount = 0;
         appointmentDate = "Not Set";
     }
-
     // Parameterized Constructor
-
-
     Patient(string n, int a, float bill, string date) {
         name = n;
         age = a;
