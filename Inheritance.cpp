@@ -14,12 +14,10 @@ public:
         cin >> name;
     }
 };
-
 // Derived class
 class Result : public Student {
 private:
     float marks;
-
 public:
     void getMarks() {
         cout << "Enter Marks: ";
