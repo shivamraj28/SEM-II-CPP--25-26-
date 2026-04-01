@@ -6,7 +6,6 @@ class Employee {
 protected:
     int empId;
     string name;
-
 public:
     void getEmployee() {
         cout << "Enter Employee ID: ";
@@ -16,7 +15,6 @@ public:
         cin >> name;
     }
 };
-
 // Multilevel Inheritance (Employee -> Department)
 class Department : public Employee {
 protected:
