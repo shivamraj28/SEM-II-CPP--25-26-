@@ -2,16 +2,16 @@
 using namespace std;
 
 int main() {
-    int a, b, result;
+    int a, c, result;
 
     cout << "Enter two numbers: ";
-    cin >> a >> b;
+    cin >> a >> c;
     try {
-        if (b == 0) {
+        if (c == 0) {
             throw "Division by zero is not allowed!";
         }
 
-        result = a / b;
+        result = a / c;
         cout << "Result: " << result << endl;
     }
     catch (const char* msg) {
