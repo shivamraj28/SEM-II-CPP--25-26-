@@ -9,7 +9,6 @@ int main() {
 
     cout << "Enter Table Number: ";
     cin >> tableNo;
-
     cin.ignore();
 
     cout << "Enter Customer Name: ";
