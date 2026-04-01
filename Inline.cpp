@@ -10,17 +10,14 @@ public:
         a = x;
         b = y;
     }
-
     inline int sum() {   // inline member function
         return a + b;
     }
 };
-
 int main() {
     Add obj;
     obj.input(10, 20);
 
     cout << "Sum = " << obj.sum();
-
     return 0;
 }
