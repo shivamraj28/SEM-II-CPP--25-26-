@@ -1,7 +1,5 @@
 #include <iostream>
 using namespace std;
-
-// Abstract class
 class Shape {
 public:
     // Pure virtual function
