@@ -7,7 +7,6 @@ private:
     int age;
     float billAmount;
     string appointmentDate;
-
 public:
     // Default Constructor
     Patient() {
@@ -23,7 +22,6 @@ public:
         billAmount = bill;
         appointmentDate = date;
     }
-
     Patient(const Patient &p) {
         name = p.name;
         age = p.age;
